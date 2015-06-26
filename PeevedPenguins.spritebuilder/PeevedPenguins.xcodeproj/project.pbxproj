@@ -46,6 +46,7 @@
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		893F013C1B3C67A0006A0C86 /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F013B1B3C67A0006A0C86 /* Penguin.swift */; };
 		893F01421B3C67B9006A0C86 /* Seal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F01411B3C67B9006A0C86 /* Seal.swift */; };
+		893F01441B3C737D006A0C86 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F01431B3C737D006A0C86 /* Gameplay.swift */; };
 		927F61A5196C771E000F43EF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
 		927F61A9196C771E000F43EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		927F61AA196C771E000F43EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
@@ -176,6 +177,7 @@
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		893F013B1B3C67A0006A0C86 /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Penguin.swift; path = Source/Penguin.swift; sourceTree = "<group>"; };
 		893F01411B3C67B9006A0C86 /* Seal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Seal.swift; path = Source/Seal.swift; sourceTree = "<group>"; };
+		893F01431B3C737D006A0C86 /* Gameplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gameplay.swift; path = Source/Gameplay.swift; sourceTree = "<group>"; };
 		927F61BF196C771E000F43EF /* PeevedPenguins Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PeevedPenguins Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 			children = (
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				7A046D7519E84C36004C4763 /* MainScene.swift */,
+				893F01431B3C737D006A0C86 /* Gameplay.swift */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 				893F013B1B3C67A0006A0C86 /* Penguin.swift */,
 				893F01411B3C67B9006A0C86 /* Seal.swift */,
@@ -819,6 +822,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73789871807631A0076A88C /* main.m in Sources */,
+				893F01441B3C737D006A0C86 /* Gameplay.swift in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
 				893F013C1B3C67A0006A0C86 /* Penguin.swift in Sources */,
 				893F01421B3C67B9006A0C86 /* Seal.swift in Sources */,
